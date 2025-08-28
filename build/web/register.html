@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register • PrepBIX</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="registerStyle.css">
+    </head>
+    <body>
+        <div id="register">
+        <form class="container" action="Registration" method="post">
+            <center><h2><strong>PrepBIX</strong></h2></center>
+            <input type="text"     name="fullName" id="fsize" placeholder="Full Name"         required/>
+            <input type="text"     name="userName" id="fsize" placeholder="Username"          required/>
+            <input type="email"    name="email"    id="fsize" placeholder="College E-mail Id" required/>
+            <input type="tel"      name="mobile"   id="fsize" pattern="[0-9]{10}"  placeholder="Mobile no." required/>
+            <input type="password" name="pass"     id="fsize" placeholder="Password"          required/>
+            
+            <input type="checkbox" required />
+            <label id="tc">I agree to the terms and conditions</label>
+            
+            <input id="btn" type="reset" />
+            <input id="btn" type="submit" value="Register"/>
+
+            <div class="sub-content">
+                Already have an account?<a href="login.html"> Login</a>
+            </div>
+
+
+            
+            
+            
+        </form>
+    </div>
+    </body>
+</html>

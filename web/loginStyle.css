@@ -1,0 +1,68 @@
+/* 
+    Created on : 27 Apr, 2024, 11:54:41 PM
+    Author     : Raja
+*/
+
+body
+{
+    background-color: buttonhighlight;
+    
+}
+h2{
+    
+    color:#cc00cc;
+    font-style: italic;
+    font-size: 43px;
+}
+#login
+{
+    width: 335px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+    position: relative;
+   
+}
+.container{
+    width: 250px;
+    height: 50%;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+}
+#fsize
+ {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: inherit;
+}
+
+#fp {
+    color: #960397;
+    font-size: 21px;
+    cursor: pointer;
+}
+#btn
+{
+    height: 39px;
+    width: 122px;
+    border-radius: 3px;
+    border: none;
+    font-size: large;
+}
+.sub-content{
+    width: 250px;
+    height: 20%;
+    margin: 13px auto;
+    padding: 31px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    font: 19px bold;
+}
